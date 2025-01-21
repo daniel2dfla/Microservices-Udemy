@@ -1,0 +1,20 @@
+{
+  "name": "Microservices-Udemy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/daniel2dfla/Microservices-Udemy.git",
+  "author": "daniel2dfla <daniel_2dfla@hotmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "startDev": "nodemon app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
