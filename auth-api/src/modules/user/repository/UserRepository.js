@@ -1,6 +1,6 @@
-import User from "../model/User";
+import User from "../model/User.js";
 
-class UserRepositorty {
+class UserRepository {
 
     async findById(id) {
         try {
@@ -21,4 +21,4 @@ class UserRepositorty {
     }
 }
 
-export default new UserRepositorty();
+export default new UserRepository();

@@ -3,5 +3,5 @@ WORKDIR .
 COPY package*.jason ./
 RUN yarn
 COPY . .
-EXPOSE 8080
+EXPOSE 5432
 CMD ["node", "app.js"]
