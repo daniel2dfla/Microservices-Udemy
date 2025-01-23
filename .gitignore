@@ -1,6 +1,7 @@
 */node_modules
 */auth-api/node_modules
 */yarn.lock
+node_modules
 
 HELP.md
 target/
